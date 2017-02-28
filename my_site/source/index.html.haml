@@ -1,15 +1,6 @@
-
-%html.no-js{:dir => "ltr", :lang => "en"}
-  %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    %title Jenny's Portfolio
-    %link{:href => "stylesheets/foundation.scss", :rel => "stylesheet"}/
-    %link{:href => "stylesheets/foundation.min.css", :rel => "stylesheet"}/
-    %link{:href => "stylesheets/site.css.scss", :rel => "stylesheet"}/
-
+---
+title: Home
+---
 
 / DESKTOP NAVIGATION
 %nav.top-bar.nav-desktop
@@ -19,7 +10,7 @@
     .top-bar-right
       %ul.menu.menu-desktop
         %li
-          %a{:href => "#html-cs"} About Me
+          %a{href: "#html-cs"} About Me
         %li
           %a{:href => "#css-cs"} Projects
 
@@ -42,9 +33,6 @@
       %a{:name => "html-cs"}
         %h1 Projects
       %hr/
-      
-
-
 
 / FOOTER
 %footer
