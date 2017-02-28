@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import "foundation";
+
+/********************************
+GENERAL
+*********************************/
+.wrap{
+  width: 90%;
+  max-width: 1000%; /*only the content*/
+  margin: auto;
+}
+
+/********************************
+NAV-DESKTOP
+*********************************/
+.nav-desktop{
+  background-color: #226;
+  line-height: 80px;
+  padding: 0;
+}
+
+.site-logo{
+  color: white;
+  line-height: 80px;
+}
+
+
+/*ibabalik*/
+.nav-desktop .menu-desktop{
+line-height: 90px;
+background-color: transparent;
+}
+
+
+.nav-desktop a {
+display: inline-block;
+}
+
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 90px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+  }
+
+  .menu > li > a:hover {
+  background-color: rgba(255,255,255,0.1);
+    }
+
+/********************************
+INTRODUCTION
+*********************************/
+.hero{
+  background-color: #999;
+  padding:50px 20px;
+  height: 400px;
+  background-image: url("../img/greyfloral.png");
+}
+
+.hero h1{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.button{
+  display: inline;;
+}
+
+/********************************
+MAIN SECTION - CSS
+*********************************/
+.main{
+  display: inline;
+  padding: 90px 0px;
+  margin:auto;
+}
+
+.section th {
+    border: 1px solid #000;
+    color: #fff;
+    text-align: center;
+    background-color:#0066cc;
+}
+
+/********************************
+FOOTER
+*********************************/
+
+footer{
+  background-color: #226;
+  padding: 90px 0px;
+}
+
+footer h4{
+  color: rgba(255,255,255,0.8);
+}
+
+footer a{
+  display: block;
+  color: rgba(255,255,255,0.6);
+}
+
+footer a:hover{
+  display: block;
+  color: rgba(255,255,255,0.1);
+}

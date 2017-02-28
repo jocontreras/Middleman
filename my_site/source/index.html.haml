@@ -1,0 +1,72 @@
+
+%html.no-js{:dir => "ltr", :lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %title Jenny's Portfolio
+    %link{:href => "stylesheets/foundation.scss", :rel => "stylesheet"}/
+    %link{:href => "stylesheets/foundation.min.css", :rel => "stylesheet"}/
+    %link{:href => "stylesheets/site.css.scss", :rel => "stylesheet"}/
+
+
+/ DESKTOP NAVIGATION
+%nav.top-bar.nav-desktop
+  .wrap
+    .top-bar-left
+      %h3.site-logo Jenny's Portfolio
+    .top-bar-right
+      %ul.menu.menu-desktop
+        %li
+          %a{:href => "#html-cs"} About Me
+        %li
+          %a{:href => "#css-cs"} Projects
+
+/ HERO SECTION
+%section.hero
+  .wrap
+    %h1 About Me
+    %p
+      Jennifer Contreras has been a  Guest Lecturer in Linnaeus University-Kalmar in Computer Science Department and is
+      currently teaching online at Al Madinah International University in Malaysia. I have been teaching Computer Science/IT
+      subjects for 15 years in different parts of the world wich enabled her to learn different cultures, educational systems
+      and pedagogical techniques. For now, she is concentrating on distance education and research about E-learning from
+      assessing the readiness state to the Importance Performance Analysis and Service Quality Assurance. She has worked
+      as Head of the Department of Computer Science where she experienced to develop Curriculum, Course Syllabi, Standard
+      Procedures and Guidelines, Implementing Rules and Regulations etc. aligning to ISO standard. the pedagogical aspects to encourage the learners to co-create and become active learners..
+
+%section.main
+  .wrap.row
+    .small-12.medium-6.column
+      %a{:name => "html-cs"}
+        %h1 Projects
+      %hr/
+      
+
+
+
+/ FOOTER
+%footer
+  .wrap.row.small-up-1.medium-up-3
+    .column
+      %h4 Useful Links
+      %hr/
+      %a{:href => "https://www.codecademy.com/learn/web", :target => "_blank"}
+        %span Codeacademy
+      %a{:href => "http://htmlcolorcodes.com/"}
+        %span Hex colors
+    .column
+      %h4 Site Map
+      %hr/
+      %a{:href => "#html-cs"}
+        %span HTML
+      %a{:href => "#css-cs"}
+        %span CSS
+    .column
+      %h4 Social Media
+      %hr/
+      %a{:href => "https://medium.com/@jen.almarasy", :target => "_blank"}
+        %span My Blog
+      %a{:href => "https://twitter.com/JenBeng2012", :target => "_blank"}
+        %span Twitter
