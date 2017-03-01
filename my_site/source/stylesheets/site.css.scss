@@ -5,22 +5,17 @@
   margin: auto;
 }
 
-/********************************
-NAV-DESKTOP
-*********************************/
-.nav-desktop{
+.nav-desktop {
   background-color: #226;
   line-height: 80px;
   padding: 0;
 }
 
-.site-logo{
-  color: #FFF;
+.site-logo {
+  color: #fff;
   line-height: 80px;
 }
 
-
-/*ibabalik*/
 .nav-desktop .menu-desktop{
 line-height: 90px;
 background-color: transparent;
@@ -45,10 +40,6 @@ display: inline-block;
   background-color: rgba(255,255,255,0.1);
     }
 
-
-/********************************
-INTRODUCTION
-*********************************/
 .hero{
   background-color: #999;
   padding:50px 20px;
@@ -66,9 +57,6 @@ INTRODUCTION
 }
 
 
-/********************************
-MAIN SECTION - CSS
-*********************************/
 .main{
   display: inline;
   padding: 90px 0px;
