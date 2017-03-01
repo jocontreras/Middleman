@@ -1,0 +1,14 @@
+- name: BMI Calculator
+  description: An introductory Javascript project for calculating BMI using metric or imperial methods.
+  github: https://github.com/jocontreras/BMI-Challenge
+  deployed: https://jocontreras.github.io/BMI-Challenge/
+
+- name: Fizz Buzz using Javascript
+  description: An introductory Javascript project for simulating fizz buzz game
+  github: https://github.com/jocontreras/fizz_buzz_JS
+  deployed: https://jocontreras.github.io/fizz_buzz_JS/
+
+- name: Fizz Buzz using Ruby
+  description: An introductory Ruby project for simulating fizz buzz game
+  github: https://github.com/jocontreras/Fizzbuzz
+  deployed: https://jocontreras.github.io/fizz_buzz_JS/
