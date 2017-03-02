@@ -11,3 +11,10 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '~> 4.2'
 gem 'middleman-livereload', '~> 3.4'
+
+group :development, :test do
+  gem 'capybara'
+  gem 'pry'
+  gem 'launchy'
+  gem 'rspec'
+end
